@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff5fb9814552432aaa0b7bdc175c7c0a" Name="Diagram1">
+        <EntityTypeShape EntityType="NhaSachModel.ChiTietDonHang" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.DonHang" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.KhachHang" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.Sach" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.TheLoai" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="NhaSachModel.FK__ChiTietDo__madon__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK__ChiTietDo__masac__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK__DonHang__makh__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK__Sach__maloai__38996AB5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
